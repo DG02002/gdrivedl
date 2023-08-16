@@ -11,7 +11,7 @@ from googleapiclient.errors import HttpError
 CYAN = '\033[96m'
 RESET = '\033[0m'
 
-default_download_path = r"C:\Users\White\Downloads\gdrive\dltest"
+default_download_path = "" #Enter path here 
 
 parser = argparse.ArgumentParser(description='Google Drive Downloader with aria2 integration.')
 parser.add_argument('--auth', metavar='OAuth_client', type=str, help='Set up OAuth 2.0 credentials to Access Google Drive APIs')
